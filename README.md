@@ -26,13 +26,13 @@ Overall, these AWS services and technologies provide a scalable and cost-effecti
 # Skills
 To successfully build and deploy this project, one would need to have a good understanding of the following skills:
 
-- AWS services and technologies - A solid understanding of Amazon SQS, AWS Lambda, AWS CloudWatch, and AWS CDK is necessary to implement this project.
+- **AWS services and technologies** - A solid understanding of Amazon SQS, AWS Lambda, AWS CloudWatch, and AWS CDK is necessary to implement this project.
 
-- Programming - Basic programming skills are required to write Lambda functions, particularly in Node.js. Familiarity with TypeScript, the language used in this project, is also helpful.
+- **Programming** - Basic programming skills are required to write Lambda functions, particularly in Node.js. Familiarity with TypeScript, the language used in this project, is also helpful.
 
-- Infrastructure as Code (IaC) - Knowledge of IaC principles and tools like AWS CDK is required to define and deploy infrastructure in code.
+- **Infrastructure as Code (IaC)** - Knowledge of IaC principles and tools like AWS CDK is required to define and deploy infrastructure in code.
 
-- Cloud computing best practices - Familiarity with cloud computing best practices, such as using serverless architecture, is necessary to build a scalable and cost-effective solution.
+- **Cloud computing best practices** - Familiarity with cloud computing best practices, such as using serverless architecture, is necessary to build a scalable and cost-effective solution.
 
 # Testing
 Once you have deployed the AWS CDK stack that includes the SQS queue and the Lambda function, you can test the setup by sending a message to the queue and checking the CloudWatch Logs for the Lambda function to see if it logs the message.
